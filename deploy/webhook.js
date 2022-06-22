@@ -1,5 +1,5 @@
 const http = require('http')
-const createHandler = require('github-webhook-handler')
+const createHandler = require('/usr/local/node-v14.17.0-linux-x64/lib/node_modules/github-webhook-handler')
 // 全局安装 node 包后, 执行 npm link xxx, 来链接使用全局包
 const handler = createHandler({ path: '/', secret: 'kasie_zhang_webhook' })
 const spawn = require('child_process').spawn;
