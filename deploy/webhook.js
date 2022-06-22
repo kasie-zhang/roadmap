@@ -4,7 +4,7 @@ const createHandler = require('/usr/local/node-v14.17.0-linux-x64/lib/node_modul
 const handler = createHandler({ path: '/webhook', secret: 'kasie_zhang_webhook' })
 const spawn = require('child_process').spawn;
 const date = new Date();
-const date_str = date.getMonth + 1 + "/" + date.getDate() + "/" + date.getFullYear() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+const date_str = date.getMonth() + 1 + "/" + date.getDate() + "/" + date.getFullYear() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
 
 http.createServer((req, res) => {
     handler(req, res, function (err) {
