@@ -1,2 +1,2 @@
 #! /bin/bash
-nohup node roadmap-webhook.js > ~/logs/roadmap_deploy_logs.out &
+nohup node roadmap-webhook.js > ~/logs/roadmap-deploy-logs.out &
