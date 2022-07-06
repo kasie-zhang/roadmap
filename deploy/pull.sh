@@ -1,9 +1,8 @@
 #! /bin/bash
 
-echo " cd webapps/roadmap"
 cd /home/zhangke/workspace/nginx/webapps/roadmap;
-
-echo " git pull start"
+echo "===== Start Excute Webooks ====="
+echo "1. Start pull repo"
 git pull
-
-echo " git pull end > Excute Sueccess"
+echo "2. Finish pull repo"
+echo "===== Finish Excute Webhooks ====="
